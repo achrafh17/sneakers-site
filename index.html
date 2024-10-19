@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sneakers</title>
+  </head>
+  <body>
+    <nav>
+      <img src="Images\logo.svg" alt="" id="logo" />
+      <p id="collection-nav">Collection</p>
+      <p id="Men-nav">Men</p>
+      <p id="Women-nav">Women</p>
+      <p id="About-nav">About</p>
+      <p id="Contact-nav">Contact</p>
+
+      <div class="logo-cart-avatar">
+        <img src="Images\icon-cart.svg" alt="" id="logo-cart" />
+        <div class="cart-logo-notif">
+            <p id="cart-logo-notif">0</p>
+        </div>
+        <img src="Images\image-avatar.png" alt="" id="avatar-logo" />
+      </div>
+    </nav>
+    <hr />
+    <div class="cart">
+        <p id="cart-text">Cart</p>
+        <hr id="hr">
+        <p id="the-cart-empty">Your Cart Empty</p>
+    </div>
+    <div class="main">
+
+      <div class="left">
+        <img src="images\image-product-1.jpg" alt="" id="image-main" />
+        <div class="mini-images-container">
+          <img
+            src="images\image-product-1-thumbnail.jpg"
+            alt=""
+            class="mini-images"
+            id="mini-image-one" />
+          <img
+            src="images\image-product-2-thumbnail.jpg"
+            alt=""
+            class="mini-images"
+            id="mini-image-two" />
+          <img
+            src="images\image-product-3-thumbnail.jpg"
+            alt=""
+            class="mini-images"
+            id="mini-image-three" />
+          <img
+            src="images\image-product-4-thumbnail.jpg"
+            alt=""
+            class="mini-images"
+            id="mini-image-four" />
+        </div>
+      </div>
+      <div class="right">
+        <p id="sneaker-company">SNEAKER COMPANY</p>
+        <p id="fall-limited">Fall Limited Edition Sneakers</p>
+        <p id="description">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-reduction">
+          <p id="price">$125.00</p>
+          <div class="reduction"><p id="reduction">50%</p></div>
+        </div>
+        <p id="last-price">$250.00</p>
+        <div class="buttons">
+          <div class="add-decline-buttons">
+            <button id="decline-button">
+              <img src="images\icon-minus.svg" alt="" id="decline-button" />
+            </button>
+            <p id="number-of-articls">0</p>
+            <button id="add-button">
+              <img src="images\icon-plus.svg" alt="" id="add-logo" />
+            </button>
+          </div>
+          <button id="add-to-cart">
+            <img src="Images\icon-cart.svg" alt="" id="cart-logo-button" />
+            <p id="add-to-cart-text">Add to cart</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="caroussel-images">
+      <button id="close-button">
+        <img src="images\icon-close.svg" alt="" id="close-logo" />
+      </button>
+      <button id="carousel-left">
+        <img src="images\icon-previous.svg" alt="" id="logo-previous" />
+      </button>
+      <img src="images\image-product-1.jpg" alt="" id="presentation-product" />
+      <button id="carousel-right">
+        <img src="images\icon-next.svg" alt="" id="logo-next" />
+      </button>
+      <div class="mini-images-container-carousel">
+        <img
+          src="images\image-product-1-thumbnail.jpg"
+          alt=""
+          class="mini-images"
+          id="mini-image-one" />
+        <img
+          src="images\image-product-2-thumbnail.jpg"
+          alt=""
+          class="mini-images"
+          id="mini-image-two" />
+        <img
+          src="images\image-product-3-thumbnail.jpg"
+          alt=""
+          class="mini-images"
+          id="mini-image-three" />
+        <img
+          src="images\image-product-4-thumbnail.jpg"
+          alt=""
+          class="mini-images"
+          id="mini-image-four" />
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
